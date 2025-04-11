@@ -32,7 +32,7 @@ Example data format:
 
 ```bash
 pip install numpy pandas lightgbm hyperopt scikit-learn matplotlib seaborn
-
+```
 ---
 
 ## 📌 Usage

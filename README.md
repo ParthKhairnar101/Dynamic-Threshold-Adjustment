@@ -52,9 +52,13 @@ submission, feature_importances, metrics = model(app_train, app_test)
 
 ## 🧪 How It Works
 LightGBM is trained using K-Fold cross-validation.
+
 MCMC samples from posterior distribution of key hyperparameters like learning_rate, reg_alpha, reg_lambda.
+
 Bayesian Optimization (via hyperopt) refines hyperparameter selection.
+
 The best parameters are used to retrain the model.
+
 Evaluation metrics (AUC) are printed and saved.
 
 ---
